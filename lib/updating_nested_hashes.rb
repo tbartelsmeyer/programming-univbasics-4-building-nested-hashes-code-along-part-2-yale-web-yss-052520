@@ -61,6 +61,7 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
    epic_tragedy[:additionalcharacters] = [{name: "Prince Escalus"}, {name: "Apothecary"}]
+   puts epic_tragedy
 
 
 
@@ -69,3 +70,4 @@ def add_characters
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
+add_characters
